@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='final2.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CREDIT RISK ANALYSIS</title>
+</head>
+
+<body>
+    <header class="header">
+        <logo class="logo">
+            <img src="riska.png" alt="">
+        </logo>
+        <navbar class="navbar">
+            <ul>
+                <li class="list"><a class="anchor" href="#">Home</a></li>
+                <li class="list"><a class="anchor" href="#ra"> Risk Analysis</a></li>
+                <li class="list"><a class="anchor" href="#abtus">About US</a></li>
+                <li class="list"><a class="anchor" href="#down">Contact US</a></li>
+            </ul>
+            <a class="lost" href="#">Sign Up</a></li>
+    </header>
+
+    </div>
+    <main>
+        <div class="topbody">
+            <h1 data-element_type="column" class="topline">
+                Creditworthiness Predictor Using Machine Learning.
+            </h1>
+            <p class="def">Discover the creditworthiness of lenders and predict loan default or repayment with precision
+                using Credit Risk Analysis advanced machine learning technology.</p>
+
+        </div>
+
+    </main>
+    <form action= "/predict/" method="post">
+    <div class="formbg" id="ra">
+        <div class="inputs">
+            <h1 class="cra">CREDIT RISK ANALYST</h1>
+
+            <!-- <div class=""><img class="reportimg"
+                    src="https://png.pngtree.com/png-vector/20220521/ourmid/pngtree-credit-report-document-concept-png-image_4657105.png"
+                    alt="">
+            </div>-->
+            <div class="test">
+                <div class="inpbox">
+                    <div class="form">
+                        <br>
+                        ENTER YOUR NAME
+                        <div>
+                            <input type="text" name="NAME" class="ibox">
+                        </div>
+                        <br>
+                        EMAIL
+                        <div>
+                            <input type="text" name="NAME" class="ibox">
+                        </div>
+                        <br>
+                        PHONE NUMBER
+                        <div>
+                            <input type="text" name="NAME" class="ibox">
+                        </div>
+                        <br>
+                        DATE OF BIRTH
+                        <div>
+                            <input type="date" name="NAME" class="ibox">
+                        </div>
+                        <br>
+                        GENDER
+                        <div>
+                            <select name="gender" class="ibox">
+                                <option value="0">MALE</option>
+                                <option value="1">FEMALE</option>
+                            </select>
+                        </div>
+                        <br>
+                        MARITAL STATUS
+                        <div>
+                            <select class="ibox" name="martstat">
+                                <option value="0">Unmarried</option>
+                                <option value="1">Married</option>
+                            </select>
+                        </div>
+                        <br>
+                        INCOME
+                        <div>
+                            <input class="ibox" type="number" name="inc">
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+                <div class="inpbox">
+                        <div class="form">
+                            <br>
+                            EDUCATION
+                            <br>
+                            <div>
+                                <select name="edu" class="ibox">
+                                    <option value="1">Graduate</option>
+                                    <option value="0">Non-Graduate</option>
+                                </select>
+                            </div>
+                            <br>
+                            <br>
+                            HOUSING
+                            <br>
+                            <div>
+                                <select name="house" class="ibox">
+                                    <option value="1">Owned</option>
+                                    <option value="0">Rental</option>
+                                </select>
+                            </div>
+                            <br>
+                            EMPLOYEMENT STATUS
+                            <div>
+                                <select class="ibox" name="empstat">
+                                    <option value="0">Employed</option>
+                                    <option value="1">Self-Employed</option>
+                                    <option value="1">Unemployed</option>
+                                </select>
+                            </div>
+                            <br>
+
+                            CO-APPLICANT INCOME
+                            <div>
+                                <input class="ibox" type="number" name="coinc">
+                            </div>
+                            <br>
+                            LOAN HISTORY
+                            <div>
+                                <select class="ibox" name="hist">
+                                    <option value="1">No Loan</option>
+                                    <option value="1">All Loans Paid</option>
+                                    <option value="0">Exisiting Loan With Bank</option>
+                                    <option value="1">Exisiting Loan With Other Bank</option>
+                                </select>
+                            </div>
+                            <br>
+                            LOAN TERM
+                            <div>
+                                <input class="ibox" type="number" name="term">
+                            </div>
+                            <br>
+                            LOAN AMOUNT
+                            <div>
+                                <input class="ibox" type="number" name="amt">
+                            </div>
+                            <br>
+
+                        </div>
+                </div>
+            </div>
+            <div class="submit">
+                <button type="submit" class="subbtn">SUBMIT </button>
+               <!---- <a class="subbtn" href="/predict/" target="_blank">SUBMIT FORM</a> -->
+            </div>
+            <div class="reset">
+                <input class="resbtn"type="reset" value="RESET FORM">
+            </div>
+
+        </div>
+    </div>
+    </form>
+
+
+    <div>
+        
+        
+    </div>
+
+
+
+
+
+
+
+    <div id="abtus" class="team">
+        <h2 class="oteam">Our Team</h2>
+        <div class="info">
+            <div class="box"><img class="cpic" src="{{ url_for('static', filename='chinmay.jpg') }}" alt="image not found"></div>
+            <div class="box" class="bio">
+                <h3>CHINMAY JADHAV</h3>I am a second-year computer engineering student with expertise in HTML, CSS, C, and C++. My interests lie in the intersection of finance, machine learning, and web development. I have a passion for developing innovative solutions to complex problems and a drive to learn and grow as a computer engineer.
+            </div>
+            <div class="box"><img class="cpic" src="{{ url_for('static', filename='pratham.jpg') }}" alt="image not found"></div>
+            <div class="box" class="bio">
+                <h3>PRATHAM JAIN</h3>I am a 2nd year computer engineering student with expertise in MS PowerPoint, C, C++, Java, and Python. My interests lie in data analysis, machine learning, finance, and backend development. I am passionate about innovation and problem-solving and aim to make a significant impact in the fin-tech industry.
+            </div>
+            <div class="box"><img class="cpic" src="{{ url_for('static', filename='atharva.jpg') }}" alt="image not found"></div>
+            <div class="box">
+                <h3>ATHARVA GITE</h3>I am a 2nd year computer engineering student with interest in FinTech , Machine Learning, Statistics. I use Python and its libraries
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer" id="down">
+        <div class="socials">
+            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.github.com" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        </div>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#ra">Risk Analysis</a></li>
+            <li><a href="#abtus">About Us</a></li>
+            <li><a href="#">Terms&Conditons</a></li>
+        </ul>
+        <div class="mail">
+            <h4>CONTACT US:</h4>
+            <ul>
+                <li>chinmay.jadhav@spit.ac.in</li>
+                <li>atharva.gite@spit.ac.in</li>
+                <li>pratham.jain@spit.ac.in</li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <p> &copy;RiskAssure. All rights reserved.</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

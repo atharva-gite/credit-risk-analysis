@@ -1,0 +1,401 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+}
+
+header {
+    width: 70%;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 20px;
+    position: sticky;
+    top: 0%;
+}
+
+img {
+    width: 200px;
+    float: left;
+    margin: 14px;
+}
+
+ul {
+    width: 100%;
+    margin: auto;
+
+}
+
+.list {
+    font-size: 20px;
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.list .anchor {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+a:hover {
+    background-color: #e4e4e4;
+}
+
+.navbar {
+    margin: auto;
+}
+
+.header .list {
+    float: left;
+}
+
+.lost {
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: green;
+    font-size: 20px;
+    list-style: none;
+    float: right;
+}
+
+.lost:hover {
+    background-color: darkgreen;
+
+}
+
+.topbody {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    background-image: url(https://png.pngtree.com/element_our/20190530/ourlarge/pngtree-internet-financial-data-analysis-image_1245038.jpg);
+    background-position: right;
+    background-size: 50%;
+    background-repeat: no-repeat;
+
+}
+
+.topline {
+    font-size: 75px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    text-align: left;
+    width: 45%;
+
+}
+
+main {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #daf6e9;
+}
+
+.def {
+    padding-top: 20px;
+    letter-spacing: .5;
+    word-spacing: 10px;
+    font-family: sans-serif;
+    width: 50%;
+    margin: 0%;
+    font-size: 175%;
+    text-align: left;
+}
+
+.team {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+    padding-top: 60px;
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 300%;
+    margin-bottom: 0;
+}
+
+.pic {
+    border-radius: 10px;
+    margin: 0;
+
+}
+
+.info {
+    width: 100%;
+}
+
+.box {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 15.5%;
+    margin: 2px;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.cpic {
+    border-radius: 10px;
+    margin: 0;
+}
+
+
+
+
+
+
+.formbg {
+    background-color: rgb(239, 239, 239);
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.inputs {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 8px grey;
+    padding-top: 0;
+}
+
+.cra {
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding-top: 75px;
+    font-size: 300%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.reportimg {
+    width: 50%;
+    display: inline;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.inpbox {
+    border: 3px solid rgb(227, 226, 226);
+    width: 45%;
+    display: inline-block;
+    box-shadow: 5px 5px 8px grey;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.test {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.submit{
+    padding:40px;
+    text-align: center;
+    width: 30%;
+    margin-left: 30%;
+}
+.subbtn{
+    
+    text-decoration: none;
+    font-size: 200%;
+    padding:20px;
+    background-color: green;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    border-radius: 25px;
+    border: 5px solid darkgreen;
+}
+.reset{
+    text-align: center;
+    width: 30%;
+    margin-left:33%;
+    padding-bottom: 40px;
+
+}
+.resbtn{
+    text-decoration: none;
+    font-size: 200%;
+    padding:20px;
+    background-color:crimson;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    border-radius: 25px;
+    border: 5px solid darkred;
+    cursor: pointer;
+
+
+}
+.resbtn:hover{
+    background-color:darkred;
+}
+
+.subbtn:hover{
+    background-color: darkgreen;
+}
+.ibox {
+    background-color: rgb(242, 244, 250);
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #5b5772;
+   /* box-shadow: 5px 5px 8px grey;*/
+}
+
+.form {
+    width: 80%;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: 150%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.oteam{
+    margin-top: 0;
+margin-bottom: 40px;
+}
+
+.footer{
+    background-image: url(footer.jpg);
+    padding-bottom: 25px;
+}
+
+.socials{
+    color: red;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center ;
+    padding-top: 20px;
+    font-size: 200%;
+}
+.socials a{
+    margin-right: 20px;
+
+}
+.menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 120%;
+}
+
+.menu li{
+    display: inline-block;
+    margin-right: 30px ;
+}
+
+li a{
+    text-decoration: none;
+    color:grey;
+}
+.mail{
+    margin-top: 20px;
+    color: grey;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mail h4{
+text-align: center;
+    margin:0;
+}
+.mail ul{
+    padding: 0;
+}
+.mail li{
+    text-align: center;
+    list-style: none;
+}
+
+.copyright{
+    color: rgb(200, 200, 200);
+    text-align: center;
+}
+.bg{
+    background-color:#daf6e9 ;
+    padding-bottom: 50px;
+}
+
+
+
+
+.appbox{
+    border: 5px solid rgb(148, 215, 215);
+    border-radius: 20px;
+    padding-left: 20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(23, 75, 77);
+   
+}
+
+.co{
+    font-size: 250%;
+}
+
+.cong{
+    margin-top: 0;
+    width: 60%;
+    font-size: 150%;
+}
+.sad{
+    border: 5px solid rgb(148, 215, 215);
+    border-radius: 20px;
+    padding-left: 20px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(98, 2, 2);
+    
+}
+
+.loan{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 70%;
+    margin: auto;
+    color: darkgreen;
+    font-size: 120%;
+}
+.yaar{
+    color:black;
+    padding: 10px;
+}
+.loanshere{
+    margin-bottom:0;
+}
+.loanweb:hover{
+    color: black;
+    background-color:#daf6e9;
+}
